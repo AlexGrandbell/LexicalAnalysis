@@ -1,8 +1,8 @@
 #include <iostream>
+#include "LexicalAnalyzer.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    
-
+    LexicalAnalyzer lexicalAnalyzer;
+    lexicalAnalyzer.analyze();
     return 0;
 }
